@@ -11,6 +11,7 @@
 int execut(char *file, stack_t **stack)
 {
 	FILE *fileopen;
+
 	if (!file)
 	{
 		printf("Error: Can't open file %s\n", file);
